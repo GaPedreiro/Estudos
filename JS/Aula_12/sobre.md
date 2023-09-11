@@ -1,0 +1,1 @@
+-> Foi feito um exercício com strings.

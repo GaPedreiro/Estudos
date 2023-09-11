@@ -1,0 +1,1 @@
+-> Nessa aula foi falado sobre o funcionamento de arrays.
