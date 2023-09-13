@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 {
     "Jest Test": {
       "prefix": ["test"],
@@ -11,4 +12,19 @@
         ],
       "description": "A describe block for Jest"
     }
+=======
+{
+    "Jest Test": {
+      "prefix": ["test"],
+        "body": [
+          "describe('', () => {",
+          "  test('', () => {",
+          "",
+          "  })",
+          "})",
+          ""
+        ],
+      "description": "A describe block for Jest"
+    }
+>>>>>>> 51c0cc117ce0d5cbeb10e2647ff0488518d15cf3
   }
