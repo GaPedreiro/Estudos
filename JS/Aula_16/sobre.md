@@ -1,1 +1,1 @@
--> Nessa aula foi falado sobre o funcionamento de arrays.
+-> Nessa aula foi falado sobre o funcionamento e manipulação de arrays.
