@@ -1,0 +1,1 @@
+-> Mais sobre condicionais. Foi explicado mais sobre o funcionamento de If, Else e Else If, como o fato de que a execução dele acaba no primeiro resultado verdadeiro que ele encontrar, então caso possua mais de uma condição verdadeira, ele somente irá executar a primeira e sair do estrutura de condição.
