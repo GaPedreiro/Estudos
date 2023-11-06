@@ -3,18 +3,41 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Modelo</title>
+    <title>Calcule seu IMC</title>
     <link rel="stylesheet" href="./assets/CSS/style.css">
 </head>
 <body>
     <section class="container">
-        <h1>Lorem ipsum dolor sit amet</h1>
-        <p>
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-        Repellendus nisi explicabo saepe voluptatibus consequuntur et corporis
-        maxime quos, doloribus vitae voluptatum quisquam necessitatibus
-        pariatur veritatis exercitationem beatae officiis suscipit Ea!
-        </p>
+        <h1>Tabela IMC</h1>
+
+        <div class="coluna">
+            <h3>IMC</h3>
+            <p>Menor que 18.5</p>
+            <p>Entre 18.5 e 24.9</p>
+            <p>Entre 25 e 29.9</p>
+            <p>Entre 30 e 34.9</p>
+            <p>Entre 35 e 39.9</p>
+            <p>Maior que 40</p>
+        </div>
+        <div class="coluna">
+            <h3>Resultado</h3>
+            <p>Abaixo do peso</p>
+            <p>Peso normal</p>
+            <p>Sobrepeso</p>
+            <p>Obesidade grau 1</p>
+            <p>Obesidade grau 2</p>
+            <p>Obesidade grau 3</p>
+        </div>
+        <h1>Calcule seu IMC</h1>
+        <form action="/" id="formulario" method="POST">
+            <label for="peso">Peso</label>
+            <input type="text" id="peso" name="peso">
+            <label for="altura">Altura</label>
+            <input type="text" id="altura" name="altura">
+            <button type="submit">Calcular</button>
+        </form>
+
+        <div id="resultado"></div>
     </section>
     <script src="./assets/JS/main.js"></script>
 </body>
